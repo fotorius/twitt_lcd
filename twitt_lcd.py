@@ -256,10 +256,10 @@ class Adafruit_CharLCD:
 if __name__ == '__main__':
 
     lcd = Adafruit_CharLCD()
-    TWITTER_APP_KEY = 'kD3wf2jjloupXfaE4pzIg' #supply the appropriate value
-    TWITTER_APP_KEY_SECRET = 'Isb1wVYIDMz5rkm436bASBiU0uFFIixfQoZ83vOiY' 
-    TWITTER_ACCESS_TOKEN = '74313303-yqFSyeXvsfftGpPl74ozA0IM6o6F54OLDq3Ek31re'
-    TWITTER_ACCESS_TOKEN_SECRET = 'Kkp9v9XKjMVweh99bISstZzoBEssQPAg9XxVJwofWbnrD'
+    TWITTER_APP_KEY = 'xxxxxx' #supply the appropriate value
+    TWITTER_APP_KEY_SECRET = 'xxxxxxx' 
+    TWITTER_ACCESS_TOKEN = 'xxxxxxx'
+    TWITTER_ACCESS_TOKEN_SECRET = 'xxxxxxx'
     
     while(1):
        t = Twython(app_key=TWITTER_APP_KEY, 
